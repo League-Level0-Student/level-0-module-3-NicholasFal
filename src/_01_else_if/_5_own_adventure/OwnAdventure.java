@@ -31,6 +31,12 @@ public class OwnAdventure {
 		JOptionPane.showMessageDialog(null, "You go get an ice cream cone, and sit down on a bench that faces the ocean. The sun starts to set as you finish your ice cream cone, it was a beautiful sight.");
 				String questionFour = JOptionPane.showInputDialog("It soon starts to get real dark, and when you get up to go to your car, you find you can't! You're paralized, you then start to cough, and you feel horrible. You then see "
 						+"\nthe guy who sold you the ice cream cone giggle and run away, and since it's so late, no one is there to help you. Do you beg the guy for help, or try to get up? (beg/up)");
+				if(questionFour.equalsIgnoreCase("beg")) {
+				JOptionPane.showMessageDialog(null, "You beg him to help you, but he runs away with an evil grin on his face and some undeserving money. "
+						+ "\n However, someone hears you, and comes to help you. He gets you to a hospital safely, and you then continue to live your life. The end!");
+				} else if(questionFour.equalsIgnoreCase("up")) {
+					JOptionPane.showMessageDialog(null, "You attempt to get up from your chair, but you find after trying to move your leg, you feel a splitting pain, and die a painful death. The end!");
+				}
 	}
 	}
 
