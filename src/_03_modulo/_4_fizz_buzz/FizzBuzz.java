@@ -20,7 +20,24 @@ package _03_modulo._4_fizz_buzz;
 * 
 **/
 
-public class FizzBuzz {
-
+public class FizzBuzz { 
+public static void main(String[] args) {
+	for(int numbers = 1; numbers < 21; numbers++) {
+		if(numbers % 3 == 0) {
+		if(numbers % 5 == 0) {
+		System.out.println("fizzbuzz");
+		} else {
+			System.out.println("fizz");
+		}
+		} else { if(numbers % 5 == 0) {
+			System.out.println("buzz");
+		} else {
+			System.out.println(numbers);
+		}
+}
+}
+	
+	
 }
 
+}
